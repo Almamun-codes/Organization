@@ -2,7 +2,7 @@ import React from "react";
 
 const Carousel = () => {
   return (
-    <div style={{ marginTop: "-10px" }}>
+    <div>
       <div
         id="carouselExampleControls"
         className="carousel slide max-height"

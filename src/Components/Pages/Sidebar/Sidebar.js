@@ -14,11 +14,6 @@ const Sidebar = () => {
     <div>
       <div className="sidebar side-backg">
         <ul>
-          <img
-            src="https://i.fbcd.co/products/original/626453bb4766720582cfd9cd3c86574b27e582172a50a0ac5c1aec48ea4785bb.jpg"
-            alt="logo"
-            style={{ height: "68px", width: "100%" }}
-          />
           <li>
             <div onClick={toggleMenu} className="a toggle">
               <span className="icon p-1">
@@ -59,14 +54,6 @@ const Sidebar = () => {
                     <i class="fas fa-calendar-check"></i>
                   </span>
                   <span className="title ps-3 p-1">events</span>
-                </Link>
-              </li>
-              <li className="position-absolute bottom-0 left-0 mb-1">
-                <Link className="a text-white" to="/profile">
-                  <span className="icon p-1">
-                    <i class="fas fa-user"></i>
-                  </span>
-                  <span className="title ps-3 p-1">{user.displayName}</span>
                 </Link>
               </li>
             </div>

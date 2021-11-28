@@ -2,8 +2,8 @@ import React from "react";
 
 const FundHistory = () => {
   return (
-    <div>
-      <h1>this is fund history</h1>
+    <div className="container my-4">
+      <h1 className="heading p-5 rounded">No fund history Available</h1>
     </div>
   );
 };

@@ -18,9 +18,9 @@ function App() {
     <AuthProvider>
       <div className="App">
         <BrowserRouter>
+          <Navbar></Navbar>
           <Sidebar></Sidebar>
           <div className="margin-left">
-            <Navbar></Navbar>
             <Routes>
               <Route exact path="/" element={<Home></Home>}></Route>
               <Route path="/home" element={<Home></Home>}></Route>

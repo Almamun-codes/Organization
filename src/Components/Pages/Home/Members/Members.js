@@ -63,7 +63,7 @@ const Members = () => {
     <div>
       <div className="container-fluid">
         <div className="container">
-          <h2 className="heading">Members</h2>
+          <h2 className="heading mt-4">Members</h2>
           <div className="row  justify-content-center">
             {members.map((member) => (
               <Member key={member.name} member={member}></Member>
