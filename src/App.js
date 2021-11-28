@@ -19,7 +19,7 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Sidebar></Sidebar>
-          <div style={{ marginLeft: "40px" }}>
+          <div className="margin-left">
             <Navbar></Navbar>
             <Routes>
               <Route exact path="/" element={<Home></Home>}></Route>

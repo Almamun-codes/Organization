@@ -2,10 +2,10 @@ import React from "react";
 
 const Carousel = () => {
   return (
-    <div>
+    <div style={{ marginTop: "-10px" }}>
       <div
         id="carouselExampleControls"
-        className="carousel slide"
+        className="carousel slide max-height"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">

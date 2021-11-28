@@ -13,7 +13,7 @@ const UserRegistration = () => {
     signUpWithPassword,
     error,
     setError,
-    // setuser,
+    setuser,
     setIsLoading,
     updateName,
   } = useAuth();
@@ -27,7 +27,9 @@ const UserRegistration = () => {
     if (name?.length > 4 && email?.length > 7) {
       signUpWithPassword()
         .then((result) => {
+          console.log(result.user);
           updateName();
+          setuser(result.user);
           // handleUserAdmit();
           setError("");
           navigate(url);

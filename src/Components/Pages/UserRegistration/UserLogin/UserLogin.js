@@ -1,11 +1,10 @@
 import React from "react";
-import { useHistory, useLocation, useNavigate } from "react-router";
+import { useLocation, useNavigate } from "react-router";
 import { Link } from "react-router-dom";
 import useAuth from "../../../Hooks/useAuth";
 
 const UserLogin = () => {
   const {
-    signInWithGoogle,
     error,
     handlePasswordChange,
     handleEmailChange,
